@@ -1,0 +1,19 @@
+package tipedata;
+
+import java.util.Scanner;
+
+public class LuasSegitigaIO {
+    public static void main(String[] args) {
+        Scanner masukan =new Scanner(System.in);
+                
+        System.out.print("Masukkan alas: ");
+        double alas = masukan.nextDouble();
+        System.out.print("Masukkan tinggi: ");
+        double tinggi = masukan.nextDouble();
+        
+        double setengah = 0.5;
+        double luas = setengah*alas*tinggi;
+        
+        System.out.println("Luas segitiga adalah: " + luas); 
+    }
+}
